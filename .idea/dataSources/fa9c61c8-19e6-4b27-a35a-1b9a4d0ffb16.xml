@@ -16,14 +16,17 @@
     <database id="5" parent="1" name="test">
       <ObjectId>16500</ObjectId>
     </database>
-    <role id="6" parent="1" name="conference">
+    <database id="6" parent="1" name="jdbc_innlevering">
+      <ObjectId>16502</ObjectId>
+    </database>
+    <role id="7" parent="1" name="conference">
       <ObjectId>16501</ObjectId>
       <SuperRole>1</SuperRole>
       <CreateDb>1</CreateDb>
       <CanLogin>1</CanLogin>
       <ConnectionLimit>-1</ConnectionLimit>
     </role>
-    <role id="7" parent="1" name="linenathalieronning">
+    <role id="8" parent="1" name="linenathalieronning">
       <ObjectId>16384</ObjectId>
       <SuperRole>1</SuperRole>
       <Inherit>1</Inherit>
@@ -32,32 +35,32 @@
       <CanLogin>1</CanLogin>
       <ConnectionLimit>-1</ConnectionLimit>
     </role>
-    <role id="8" parent="1" name="pg_monitor">
+    <role id="9" parent="1" name="pg_monitor">
       <ObjectId>3373</ObjectId>
       <Inherit>1</Inherit>
       <ConnectionLimit>-1</ConnectionLimit>
     </role>
-    <role id="9" parent="1" name="pg_read_all_settings">
+    <role id="10" parent="1" name="pg_read_all_settings">
       <ObjectId>3374</ObjectId>
       <Inherit>1</Inherit>
       <ConnectionLimit>-1</ConnectionLimit>
     </role>
-    <role id="10" parent="1" name="pg_read_all_stats">
+    <role id="11" parent="1" name="pg_read_all_stats">
       <ObjectId>3375</ObjectId>
       <Inherit>1</Inherit>
       <ConnectionLimit>-1</ConnectionLimit>
     </role>
-    <role id="11" parent="1" name="pg_signal_backend">
+    <role id="12" parent="1" name="pg_signal_backend">
       <ObjectId>4200</ObjectId>
       <Inherit>1</Inherit>
       <ConnectionLimit>-1</ConnectionLimit>
     </role>
-    <role id="12" parent="1" name="pg_stat_scan_tables">
+    <role id="13" parent="1" name="pg_stat_scan_tables">
       <ObjectId>3377</ObjectId>
       <Inherit>1</Inherit>
       <ConnectionLimit>-1</ConnectionLimit>
     </role>
-    <role id="13" parent="1" name="postgres">
+    <role id="14" parent="1" name="postgres">
       <ObjectId>10</ObjectId>
       <SuperRole>1</SuperRole>
       <Inherit>1</Inherit>
@@ -68,25 +71,25 @@
       <ConnectionLimit>-1</ConnectionLimit>
       <BypassRls>1</BypassRls>
     </role>
-    <schema id="14" parent="2" name="public">
+    <schema id="15" parent="2" name="public">
       <ObjectId>2200</ObjectId>
-      <IntrospectionTimestamp>2018-10-17.15:46:02.782</IntrospectionTimestamp>
+      <IntrospectionTimestamp>2018-10-19.16:36:00.444</IntrospectionTimestamp>
       <Current>1</Current>
       <Visible>1</Visible>
     </schema>
-    <schema id="15" parent="2" name="pg_catalog">
+    <schema id="16" parent="2" name="pg_catalog">
       <ObjectId>11</ObjectId>
     </schema>
-    <schema id="16" parent="2" name="pg_toast">
+    <schema id="17" parent="2" name="pg_toast">
       <ObjectId>99</ObjectId>
     </schema>
-    <schema id="17" parent="2" name="pg_temp_1">
+    <schema id="18" parent="2" name="pg_temp_1">
       <ObjectId>11736</ObjectId>
     </schema>
-    <schema id="18" parent="2" name="pg_toast_temp_1">
+    <schema id="19" parent="2" name="pg_toast_temp_1">
       <ObjectId>11737</ObjectId>
     </schema>
-    <schema id="19" parent="2" name="information_schema">
+    <schema id="20" parent="2" name="information_schema">
       <ObjectId>12976</ObjectId>
     </schema>
   </database-model>
