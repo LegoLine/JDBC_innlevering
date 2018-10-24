@@ -5,8 +5,6 @@ import java.sql.Connection;
 import java.sql.SQLException;
 import java.util.List;
 
-//import no.kristiania.prg200.database.core.Conference;
-//import no.kristiania.prg200.database.core.Days;
 
 
 /**
@@ -15,7 +13,7 @@ import java.util.List;
 public class DaysDao implements DataAccessObject {
 
     public DaysDao(DataSource dataSource){
-        super(dataSource);
+        super (dataSource);
     }
 
     @Override
