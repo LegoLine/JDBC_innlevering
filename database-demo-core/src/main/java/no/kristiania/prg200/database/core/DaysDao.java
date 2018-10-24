@@ -12,44 +12,49 @@ import java.util.List;
 /**
  * Tilsvarer courseDao
  */
-public class DaysDao extends AbstractDao implements DataAccessObject {
+public class DaysDao extends AbstractDao implements DataAccessObject<Days> {
 
     public DaysDao(DataSource dataSource){
         super (dataSource);
     }
 
     @Override
-    public void save(Tracks tracks) throws SQLException {
-        try (Connection connection = dataSource.getConnection()){
-            String sql = "insert into courses (title) "
-                    + "values (?)";
+    public void save(Days days) throws SQLException {
+        try (Connection connection = dataSource.getConnection()) {
+            String sql =
+                    "insert into Days (days) "
+                            + "values (?)";
+            try (PreparedStatement statement = connection.prepareStatement(sql, PreparedStatement.RETURN_GENERATED_KEYS)) {
+                statement.setObject(1, days.getDays());
+                statement.setObject ( 2, days.getDate () );
+                statement.executeUpdate();
 
-            try (PreparedStatement statement =  connection.prepareStatement ( sql, PreparedStatement.RETURN_GENERATED_KEYS )){
-                statement.setObject ( 1, Days.getDays());
-                statement.executeUpdate ();
-
-                try (ResultSet rs = statement.getGeneratedKeys ()){
-
-                    rs.next ();
-                    Days.setId(rs.getLong ( 1 ));
+                try (ResultSet rs = statement.getGeneratedKeys()) {
+                    rs.next();
+                    days.setId(rs.getLong(1));
                 }
             }
         }
-
     }
 
     @Override
-    public Tracks retrieve(Long id) throws SQLException {
-        return null;
+    public Talks retrieve (Long id) throws SQLException{
+        return retrieveSingleObject ( "SELECT * FROM days WHERE id = ?", this::mapToDays, id);
     }
 
     @Override
-    public List<Tracks> listAll() throws SQLException {
-        return null;
+    public List<Talks> listAll() throws SQLException {
+        return list("select * from courses", this::mapToDays);
     }
 
-    @Override
-    public void delete(Tracks object) throws SQLException {
 
+    public Days mapToDays(ResultSet rs) throws SQLException{
+        Days days = new Days ();
+        days.setId ( rs.getLong ( "id" ) );
+        days.setDays ( rs.getString ( "days" ) );
+        days.setDate ( rs.getString ( "date" ) );
+        return days;
     }
+
+
 }

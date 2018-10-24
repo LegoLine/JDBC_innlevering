@@ -4,7 +4,7 @@ import java.sql.Time;
 import java.util.Objects;
 
 public class Timeslots {
-    private Time time;
+    private String time;
     Long id;
 
     public Timeslots() {
@@ -12,11 +12,11 @@ public class Timeslots {
         this.id = id;
     }
 
-    public Time getTime() {
+    public String getTime() {
         return time;
     }
 
-    public void setTime(Time time) {
+    public void setTime(String time) {
         this.time = time;
     }
 

@@ -1,30 +1,29 @@
-create table if not exists persons (
+create table if not exists talks (
     id serial primary key,
-    given_name varchar not null,
-    family_name varchar not null,
-    email varchar not null unique
+    talks_title varchar not null,
+    talks_topic varchar not null,
+    talks_description varchar not null
 );
 
-create table if not exists courses (
+create table if not exists days (
     id serial primary key,
-    title varchar not null
+    days_days varchar not null
+    days_date varchar not null
 );
 
-create table if not exists semester (
+create table if not exists timeslots (
     id serial primary key,
-    title varchar not null,
-    start_date date not null,
-    finish_date date not null
+    timeslots_time varchar not null
 );
 
-create table if not exists course_offerings (
+create table if not exists offerings (
     id serial primary key,
-    semester_id integer not null,
-    course_id integer not null,
-    teacher_id integer,
-    foreign key (semester_id) references semester(id),
-    foreign key (course_id) references courses(id),
-    foreign key (teacher_id) references persons(id)
+    talks_id integer not null,
+    days_id integer not null,
+    timeslots_id integer,
+    foreign key (talks_id) references talks(id),
+    foreign key (days_id) references days(id),
+    foreign key (timeslots_id) references timeslots(id)
 );
 
 create table if not exists student_enrollment (
@@ -32,5 +31,5 @@ create table if not exists student_enrollment (
     student_id integer not null,
     course_offering_id integer not null,
     foreign key (student_id) references persons(id),
-    foreign key (course_offering_id) references course_offerings(id)
+    foreign key (offering_id) references offerings(id)
 );

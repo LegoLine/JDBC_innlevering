@@ -3,13 +3,12 @@ package no.kristiania.prg200.database.core;
 import java.sql.SQLException;
 import java.util.List;
 
-public interface DataAccessObject {
+public interface DataAccessObject<T> {
 
-    void save(Tracks object) throws SQLException;
+    void save(T object) throws SQLException;
 
-    Tracks retrieve(Long id) throws SQLException;
+    Talks retrieve(Long id) throws SQLException;
 
-    List<Tracks> listAll() throws SQLException;
+    List<T> listAll() throws SQLException;
 
-    void delete(Tracks object) throws SQLException;
 }

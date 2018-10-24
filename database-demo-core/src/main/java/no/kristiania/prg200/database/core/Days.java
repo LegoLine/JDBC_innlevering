@@ -1,22 +1,20 @@
 package no.kristiania.prg200.database.core;
 
-import java.util.Date;
 import java.util.Objects;
 
 public class Days {
 
-    private static String days;
-    Date date;
-    private static Long id;
+    String days;
+    String date;
+    Long id;
 
-    public Days(){
-        this.days = days;
-        this.date = date;
-        this.id = id;
+
+    public  String getDays() {
+        return days;
     }
 
-    public static String getDays() {
-        return days;
+    public void setId(long id) {
+        this.id = id;
     }
 
 
@@ -24,21 +22,18 @@ public class Days {
         this.days = days;
     }
 
-    public Date getDate() {
+    public String getDate() {
         return date;
     }
 
-    public void setDate(Date date) {
+    public void setDate(String date) {
         this.date = date;
     }
 
-    public Long getId() {
+    public Long getId(Long id) {
         return id;
     }
 
-    public static void setId(Long id) {
-        this.id = id;
-    }
 
     @Override
     public boolean equals(Object o) {
