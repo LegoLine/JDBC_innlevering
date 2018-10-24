@@ -1,5 +1,7 @@
 package no.kristiania.prg200.database.main;
 
+import no.kristiania.prg200.database.core.Talks;
+import no.kristiania.prg200.database.core.TalksDao;
 import org.flywaydb.core.Flyway;
 import org.postgresql.ds.PGPoolingDataSource;
 
@@ -12,6 +14,7 @@ public class Conference {
 
     public static void main(String[] args) throws IOException, SQLException {
         DataSource dataSource = createDataSource();
+
 
     }
 

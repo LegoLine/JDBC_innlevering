@@ -38,12 +38,12 @@ public class DaysDao extends AbstractDao implements DataAccessObject<Days> {
     }
 
     @Override
-    public Talks retrieve (Long id) throws SQLException{
+    public Days retrieve (Long id) throws SQLException{
         return retrieveSingleObject ( "SELECT * FROM days WHERE id = ?", this::mapToDays, id);
     }
 
     @Override
-    public List<Talks> listAll() throws SQLException {
+    public List<Days> listAll() throws SQLException {
         return list("select * from courses", this::mapToDays);
     }
 

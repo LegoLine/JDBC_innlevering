@@ -7,7 +7,7 @@ public interface DataAccessObject<T> {
 
     void save(T object) throws SQLException;
 
-    Talks retrieve(Long id) throws SQLException;
+    T retrieve(Long id) throws SQLException;
 
     List<T> listAll() throws SQLException;
 
