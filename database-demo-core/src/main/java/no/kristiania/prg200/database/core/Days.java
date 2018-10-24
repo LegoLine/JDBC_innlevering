@@ -5,76 +5,23 @@ import java.util.Objects;
 
 public class Days {
 
-    private String mon, tues, wed, thurs, fri, sat, sun;
+    private static String days;
     Date date;
-    Long id;
+    private static Long id;
 
     public Days(){
-        this.mon = mon;
-        this.tues = tues;
-        this.wed = wed;
-        this.thurs = thurs;
-        this.fri = fri;
-        this.sat = sat;
-        this.sun = sun;
+        this.days = days;
         this.date = date;
         this.id = id;
     }
 
-    public String getMon() {
-        return mon;
+    public static String getDays() {
+        return days;
     }
 
-    public void setMon(String mon) {
-        this.mon = mon;
-    }
 
-    public String getTues() {
-        return tues;
-    }
-
-    public void setTues(String tues) {
-        this.tues = tues;
-    }
-
-    public String getWed() {
-        return wed;
-    }
-
-    public void setWed(String wed) {
-        this.wed = wed;
-    }
-
-    public String getThurs() {
-        return thurs;
-    }
-
-    public void setThurs(String thurs) {
-        this.thurs = thurs;
-    }
-
-    public String getFri() {
-        return fri;
-    }
-
-    public void setFri(String fri) {
-        this.fri = fri;
-    }
-
-    public String getSat() {
-        return sat;
-    }
-
-    public void setSat(String sat) {
-        this.sat = sat;
-    }
-
-    public String getSun() {
-        return sun;
-    }
-
-    public void setSun(String sun) {
-        this.sun = sun;
+    public void setDays(String days) {
+        this.days = days;
     }
 
     public Date getDate() {
@@ -89,7 +36,7 @@ public class Days {
         return id;
     }
 
-    public void setId(Long id) {
+    public static void setId(Long id) {
         this.id = id;
     }
 
@@ -99,28 +46,21 @@ public class Days {
             return false;
         }
         Days otherDays =(Days) o;
-        return Objects.equals(mon, otherDays.mon)
-                && Objects.equals(tues, otherDays.tues)
-                && Objects.equals(wed, otherDays.wed)
-                && Objects.equals(thurs, otherDays.thurs)
-                && Objects.equals(fri, otherDays.fri)
-                && Objects.equals(sat, otherDays.sat)
-                && Objects.equals(sun, otherDays.sun)
+        return Objects.equals(days, otherDays.days)
                 && Objects.equals(date, otherDays.date)
                 && Objects.equals(id, otherDays.id);
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(mon, tues, wed, thurs, fri, sat, sun, date, id);
+        return Objects.hash(days, date, id);
     }
 
     @Override
     public String toString() {
-        return getClass().getSimpleName() + "{mon=" + mon + ",tues=" + tues
-                + ",wed=" + wed + ",thurs=" + thurs
-                + ",fri=" + fri + ",sat=" + sat
-                + ",sun=" + sun + ",date=" + date
-                + ",id="  + id  + "}";
+        return getClass().getSimpleName()
+                + "{days=" + days
+                + ",date=" + date
+                + ",id="   + id  + "}";
     }
 }
