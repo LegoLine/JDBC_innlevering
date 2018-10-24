@@ -73,7 +73,8 @@
     </role>
     <schema id="15" parent="2" name="public">
       <ObjectId>2200</ObjectId>
-      <IntrospectionTimestamp>2018-10-19.16:36:00.444</IntrospectionTimestamp>
+      <IntrospectionTimestamp>2018-10-24.18:35:23.919</IntrospectionTimestamp>
+      <IntrospectionStateNumber>588</IntrospectionStateNumber>
       <Current>1</Current>
       <Visible>1</Visible>
     </schema>
@@ -92,5 +93,51 @@
     <schema id="20" parent="2" name="information_schema">
       <ObjectId>12976</ObjectId>
     </schema>
+    <sequence id="21" parent="15" name="tracks_id_seq">
+      <ObjectId>16503</ObjectId>
+      <StateNumber>588</StateNumber>
+      <SequenceIdentity>1..2147483647</SequenceIdentity>
+      <BelongsToColumn>1</BelongsToColumn>
+      <CacheSize>1</CacheSize>
+      <DataType>integer</DataType>
+    </sequence>
+    <table id="22" parent="15" name="tracks">
+      <ObjectId>16505</ObjectId>
+      <StateNumber>588</StateNumber>
+    </table>
+    <column id="23" parent="22" name="id">
+      <Position>1</Position>
+      <DataType>integer|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>588</StateNumber>
+      <DefaultExpression>nextval(&apos;tracks_id_seq&apos;::regclass)</DefaultExpression>
+      <TypeId>23</TypeId>
+      <SequenceName>tracks_id_seq</SequenceName>
+    </column>
+    <column id="24" parent="22" name="tracks_days">
+      <Position>2</Position>
+      <DataType>varchar|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>588</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="25" parent="22" name="tracks_date">
+      <Position>3</Position>
+      <DataType>varchar|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>588</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <index id="26" parent="22" name="tracks_pkey">
+      <ObjectId>16512</ObjectId>
+      <ColNames>id</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="27" parent="22" name="tracks_pkey">
+      <ObjectId>16513</ObjectId>
+      <ColNames>id</ColNames>
+      <UnderlyingIndexName>tracks_pkey</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
   </database-model>
 </dataSource>
