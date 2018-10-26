@@ -18,10 +18,10 @@ public class DaysDao extends AbstractDao implements DataAccessObject<Days> {
     public void save(Days days) throws SQLException {
         try (Connection connection = dataSource.getConnection()) {
             String sql =
-                    "insert into Days (id, days, date) values (?, ?, ?)";
+                    "insert into Days (days_days, days_date) values (?, ?)";
             try (PreparedStatement statement = connection.prepareStatement(sql, PreparedStatement.RETURN_GENERATED_KEYS)) {
                 statement.setObject(1, days.getDays());
-                statement.setObject ( 1, days.getDate () );
+                statement.setObject ( 2, days.getDate () );
                 statement.executeUpdate();
 
                 try (ResultSet rs = statement.getGeneratedKeys()) {
@@ -46,8 +46,8 @@ public class DaysDao extends AbstractDao implements DataAccessObject<Days> {
     public Days mapToDays(ResultSet rs) throws SQLException{
         Days days = new Days ();
         days.setId ( rs.getLong ( "id" ) );
-        days.setDays ( rs.getString ( "days" ) );
-        days.setDate ( rs.getString ( "date" ) );
+        days.setDays ( rs.getString ( "days_days" ) );
+        days.setDate ( rs.getString ( "days_date" ) );
         return days;
     }
 
