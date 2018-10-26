@@ -21,7 +21,7 @@ public class TimeslotsDao extends AbstractDao implements DataAccessObject<Timesl
     public void save(Timeslots timeslots) throws SQLException {
         try (Connection connection = dataSource.getConnection()) {
             String sql =
-                    "insert into Timeslots (timeslots) "
+                    "insert into Timeslots (timeslots_time)"
                             + "values (?)";
             try (PreparedStatement statement = connection.prepareStatement(sql, PreparedStatement.RETURN_GENERATED_KEYS)) {
                 statement.setObject(1, timeslots.getTime ());
@@ -50,7 +50,7 @@ public class TimeslotsDao extends AbstractDao implements DataAccessObject<Timesl
     public Timeslots mapToTimeslots(ResultSet rs) throws SQLException{
         Timeslots timeslots = new Timeslots ();
         timeslots.setId ( rs.getLong ( "id" ) );
-        timeslots.setTime ( rs.getString ( "time" ) );
+        timeslots.setTime ( rs.getString ( "timeslots_time" ) );
         return timeslots;
     }
 
