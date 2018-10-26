@@ -20,8 +20,8 @@ public class TalksDao extends AbstractDao implements DataAccessObject<Talks> {
     public void save(Talks talks) throws SQLException {
         try (Connection connection = dataSource.getConnection()) {
             String sql =
-                    "insert into Talks (talks) "
-                            + "values (?)";
+                    "insert into Talks (talks_title, talks_topic, talks_description) "
+                            + "values (?, ?, ?)";
             try (PreparedStatement statement = connection.prepareStatement(sql, PreparedStatement.RETURN_GENERATED_KEYS)) {
                 statement.setObject(1, talks.getTitle ());
                 statement.setObject ( 2, talks.getTopic ());
@@ -50,9 +50,9 @@ public class TalksDao extends AbstractDao implements DataAccessObject<Talks> {
     public Talks mapToTalks(ResultSet rs) throws SQLException{
         Talks talks = new Talks ();
         talks.setId ( rs.getLong ( "id" ) );
-        talks.setTitle ( rs.getString ( "title" ) );
-        talks.setTopic ( rs.getString ( "topic" ) );
-        talks.setDescription ( rs.getString ( "description" ) );
+        talks.setTitle ( rs.getString ( "talks_title" ) );
+        talks.setTopic ( rs.getString ( "talks_topic" ) );
+        talks.setDescription ( rs.getString ( "talks_description" ) );
         return talks;
     }
 

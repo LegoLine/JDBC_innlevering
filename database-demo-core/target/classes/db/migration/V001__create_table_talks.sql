@@ -1,5 +1,6 @@
 create table if not exists talks (
     id serial primary key,
-    days_days varchar not null,
-    days_date varchar not null
+    talks_title varchar not null,
+    talks_topic varchar not null,
+    talks_description varchar not null
 );
