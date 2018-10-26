@@ -33,6 +33,14 @@ public class DaysDaoTest {
             .isEqualToComparingFieldByField(days);
     }
 
+    @Test
+    public void shouldFindSavedDays() throws SQLException, IOException{
+        Days days = sampleDays ();
+        daysDao.save(days);
+
+        assertThat(daysDao.listAll().contains(days));
+    }
+
     private Days sampleDays() {
         Days days = new Days ();
         days.setDays ( randomDays() );
