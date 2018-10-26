@@ -44,7 +44,7 @@ public class DaysDao extends AbstractDao implements DataAccessObject<Days> {
 
 
     public Days mapToDays(ResultSet rs) throws SQLException{
-        Days days = new Days ();
+        Days days = new Days();
         days.setId ( rs.getLong ( "id" ) );
         days.setDays ( rs.getString ( "days_days" ) );
         days.setDate ( rs.getString ( "days_date" ) );

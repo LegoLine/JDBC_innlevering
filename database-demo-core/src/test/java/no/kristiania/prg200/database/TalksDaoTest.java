@@ -1,7 +1,6 @@
 package no.kristiania.prg200.database;
 
-import no.kristiania.prg200.database.core.Days;
-import no.kristiania.prg200.database.core.DaysDao;
+
 import no.kristiania.prg200.database.core.Talks;
 import no.kristiania.prg200.database.core.TalksDao;
 import org.junit.Test;
