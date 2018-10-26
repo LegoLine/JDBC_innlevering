@@ -30,7 +30,7 @@ public class Days {
         this.date = date;
     }
 
-    public Long getId(Long id) {
+    public Long getId() {
         return id;
     }
 

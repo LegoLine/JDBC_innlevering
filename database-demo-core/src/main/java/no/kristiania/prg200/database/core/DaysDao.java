@@ -8,10 +8,6 @@ import java.sql.SQLException;
 import java.util.List;
 
 
-
-/**
- * Tilsvarer courseDao
- */
 public class DaysDao extends AbstractDao implements DataAccessObject<Days> {
 
     public DaysDao(DataSource dataSource){
@@ -22,11 +18,10 @@ public class DaysDao extends AbstractDao implements DataAccessObject<Days> {
     public void save(Days days) throws SQLException {
         try (Connection connection = dataSource.getConnection()) {
             String sql =
-                    "insert into Days (days) "
-                            + "values (?)";
+                    "insert into Days (id, days, date) values (?, ?, ?)";
             try (PreparedStatement statement = connection.prepareStatement(sql, PreparedStatement.RETURN_GENERATED_KEYS)) {
                 statement.setObject(1, days.getDays());
-                statement.setObject ( 2, days.getDate () );
+                statement.setObject ( 1, days.getDate () );
                 statement.executeUpdate();
 
                 try (ResultSet rs = statement.getGeneratedKeys()) {
