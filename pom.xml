@@ -6,8 +6,8 @@
   <packaging>pom</packaging>
   
   <modules>
-    <module>database-core</module>
-    <module>database-main</module>
+    <module>database-demo-core</module>
+    <module>database-demo-main</module>
   </modules>
 
   
