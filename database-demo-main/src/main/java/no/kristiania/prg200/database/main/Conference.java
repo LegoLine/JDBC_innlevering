@@ -1,5 +1,6 @@
 package no.kristiania.prg200.database.main;
 
+import no.kristiania.prg200.database.core.Days;
 import no.kristiania.prg200.database.core.DaysDao;
 import no.kristiania.prg200.database.core.Talks;
 import no.kristiania.prg200.database.core.TalksDao;
@@ -17,8 +18,17 @@ public class Conference {
 
     public static void main(String[] args) throws IOException, SQLException {
         DataSource dataSource = createDataSource();
+//        DaysDao daysDao = new DaysDao(dataSource);
+//
+//        Days testDays = new Days();
+//        testDays.setDate("29.01.1993");
+//        testDays.setDays("Friday");
+//        testDays.setId(1L);
+//        daysDao.save(testDays);
+//
+//        System.out.println (testDays);
 
-        createConference();
+        //createConference();
 
 
     }
