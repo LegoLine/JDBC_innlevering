@@ -2,61 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="48f2ce76-ea71-4449-9495-4696a4a84e47" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/database-core/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/database-demo-core/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database-core/.idea/libraries/Maven__com_h2database_h2_1_4_197.xml" beforeDir="false" afterPath="$PROJECT_DIR$/database-demo-core/.idea/libraries/Maven__com_h2database_h2_1_4_197.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database-core/.idea/libraries/Maven__junit_junit_4_12.xml" beforeDir="false" afterPath="$PROJECT_DIR$/database-demo-core/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database-core/.idea/libraries/Maven__org_assertj_assertj_core_3_11_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/database-demo-core/.idea/libraries/Maven__org_assertj_assertj_core_3_11_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database-core/.idea/libraries/Maven__org_flywaydb_flyway_core_5_1_4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/database-demo-core/.idea/libraries/Maven__org_flywaydb_flyway_core_5_1_4.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database-core/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/database-demo-core/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database-core/.idea/libraries/Maven__org_postgresql_postgresql_42_2_5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/database-demo-core/.idea/libraries/Maven__org_postgresql_postgresql_42_2_5.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database-core/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/database-demo-core/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database-core/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/database-demo-core/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database-core/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/database-demo-core/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database-core/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/database-demo-core/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database-core/src/main/java/no/kristiania/prg200/database/core/AbstractDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/database-demo-core/src/main/java/no/kristiania/prg200/database/core/AbstractDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database-core/src/main/java/no/kristiania/prg200/database/core/CollectedConferenceDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/database-demo-core/src/main/java/no/kristiania/prg200/database/core/CollectedConferenceDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database-core/src/main/java/no/kristiania/prg200/database/core/ConferenceArchive.java" beforeDir="false" afterPath="$PROJECT_DIR$/database-demo-core/src/main/java/no/kristiania/prg200/database/core/ConferenceArchive.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database-core/src/main/java/no/kristiania/prg200/database/core/DataAccessObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/database-demo-core/src/main/java/no/kristiania/prg200/database/core/DataAccessObject.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database-core/src/main/java/no/kristiania/prg200/database/core/Days.java" beforeDir="false" afterPath="$PROJECT_DIR$/database-demo-core/src/main/java/no/kristiania/prg200/database/core/Days.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database-core/src/main/java/no/kristiania/prg200/database/core/DaysDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/database-demo-core/src/main/java/no/kristiania/prg200/database/core/DaysDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database-core/src/main/java/no/kristiania/prg200/database/core/ResultSetMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/database-demo-core/src/main/java/no/kristiania/prg200/database/core/ResultSetMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database-core/src/main/java/no/kristiania/prg200/database/core/Talks.java" beforeDir="false" afterPath="$PROJECT_DIR$/database-demo-core/src/main/java/no/kristiania/prg200/database/core/Talks.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database-core/src/main/java/no/kristiania/prg200/database/core/TalksDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/database-demo-core/src/main/java/no/kristiania/prg200/database/core/TalksDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database-core/src/main/java/no/kristiania/prg200/database/core/Timeslots.java" beforeDir="false" afterPath="$PROJECT_DIR$/database-demo-core/src/main/java/no/kristiania/prg200/database/core/Timeslots.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database-core/src/main/java/no/kristiania/prg200/database/core/TimeslotsDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/database-demo-core/src/main/java/no/kristiania/prg200/database/core/TimeslotsDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database-core/src/main/resources/db/migration/V001__create_table_talks.sql" beforeDir="false" afterPath="$PROJECT_DIR$/database-demo-core/src/main/resources/db/migration/V001__create_table_talks.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database-core/src/main/resources/db/migration/V002__create_table_days.sql" beforeDir="false" afterPath="$PROJECT_DIR$/database-demo-core/src/main/resources/db/migration/V002__create_table_days.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database-core/src/main/resources/db/migration/V003__Timeslots.sql" beforeDir="false" afterPath="$PROJECT_DIR$/database-demo-core/src/main/resources/db/migration/V003__Timeslots.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database-core/src/main/resources/db/migration/V004__create_table_tracks.sql" beforeDir="false" afterPath="$PROJECT_DIR$/database-demo-core/src/main/resources/db/migration/V004__create_table_tracks.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database-core/src/test/java/no/kristiania/prg200/database/DaysDaoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/database-demo-core/src/test/java/no/kristiania/prg200/database/DaysDaoTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database-core/src/test/java/no/kristiania/prg200/database/TalksDaoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/database-demo-core/src/test/java/no/kristiania/prg200/database/TalksDaoTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database-core/src/test/java/no/kristiania/prg200/database/TestDataSource.java" beforeDir="false" afterPath="$PROJECT_DIR$/database-demo-core/src/test/java/no/kristiania/prg200/database/TestDataSource.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database-core/src/test/java/no/kristiania/prg200/database/TimeslotsDaoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/database-demo-core/src/test/java/no/kristiania/prg200/database/TimeslotsDaoTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database-core/target/classes/db/migration/V001__create_table_talks.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/database-core/target/classes/db/migration/V002__create_table_days.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/database-core/target/classes/db/migration/V003__Timeslots.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/database-core/target/classes/db/migration/V004__create_table_tracks.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/database-core/target/classes/no/kristiania/prg200/database/core/AbstractDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/database-core/target/classes/no/kristiania/prg200/database/core/CollectedConferenceDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/database-core/target/classes/no/kristiania/prg200/database/core/ConferenceArchive.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/database-core/target/classes/no/kristiania/prg200/database/core/DataAccessObject.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/database-core/target/classes/no/kristiania/prg200/database/core/Days.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/database-core/target/classes/no/kristiania/prg200/database/core/DaysDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/database-core/target/classes/no/kristiania/prg200/database/core/ResultSetMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/database-core/target/classes/no/kristiania/prg200/database/core/Talks.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/database-core/target/classes/no/kristiania/prg200/database/core/TalksDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/database-core/target/classes/no/kristiania/prg200/database/core/Timeslots.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/database-core/target/classes/no/kristiania/prg200/database/core/TimeslotsDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/database-core/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/database-core/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/database-core/target/test-classes/no/kristiania/prg200/database/DaysDaoTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/database-core/target/test-classes/no/kristiania/prg200/database/TalksDaoTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/database-core/target/test-classes/no/kristiania/prg200/database/TestDataSource.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/database-core/target/test-classes/no/kristiania/prg200/database/TimeslotsDaoTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/database-main/logevents.properties" beforeDir="false" afterPath="$PROJECT_DIR$/database-demo-main/logevents.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database-main/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/database-demo-main/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database-main/src/main/java/no/kristiania/prg200/database/main/Conference.java" beforeDir="false" afterPath="$PROJECT_DIR$/database-demo-main/src/main/java/no/kristiania/prg200/database/main/Conference.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database-main/target/classes/no/kristiania/prg200/database/main/Conference.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
@@ -90,11 +35,59 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="30" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
+            <state relative-caret-position="330">
+              <caret line="22" selection-start-line="22" selection-end-line="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Conference.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/database-demo-main/src/main/java/no/kristiania/prg200/database/main/Conference.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="455">
+              <caret line="41" column="61" selection-start-line="41" selection-start-column="61" selection-end-line="41" selection-end-column="61" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AbstractDao.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/database-demo-core/src/main/java/no/kristiania/prg200/database/core/AbstractDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TimeslotsDaoTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/database-demo-core/src/test/java/no/kristiania/prg200/database/TimeslotsDaoTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestDataSource.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/database-demo-core/src/test/java/no/kristiania/prg200/database/TestDataSource.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/database-demo-core/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="13" column="32" selection-start-line="13" selection-start-column="32" selection-end-line="13" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -213,6 +206,47 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="core" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="database-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JDBC_innlevering" type="462c0819:PsiDirectoryNode" />
+              <item name="database-demo-core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="database-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JDBC_innlevering" type="462c0819:PsiDirectoryNode" />
+              <item name="database-demo-core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="migration" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="database-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JDBC_innlevering" type="462c0819:PsiDirectoryNode" />
+              <item name="database-demo-core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="database-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JDBC_innlevering" type="462c0819:PsiDirectoryNode" />
+              <item name="database-demo-core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="database-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JDBC_innlevering" type="462c0819:PsiDirectoryNode" />
+              <item name="database-demo-core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="database" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="database-demo" type="b2602c69:ProjectViewProjectNode" />
@@ -457,7 +491,7 @@
       <workItem from="1540383674319" duration="13403000" />
       <workItem from="1540399470343" duration="14000" />
       <workItem from="1540548488242" duration="24666000" />
-      <workItem from="1540893560911" duration="2907000" />
+      <workItem from="1540893560911" duration="3542000" />
     </task>
     <servers />
   </component>
@@ -494,7 +528,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44583000" />
+    <option name="totallyTimeSpent" value="45218000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1424" height="869" extended-state="0" />
@@ -659,13 +693,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/database-demo-core/src/test/java/no/kristiania/prg200/database/TimeslotsDaoTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/database-demo-core/src/main/java/no/kristiania/prg200/database/core/DataAccessObject.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -705,13 +732,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database-demo-core/src/main/java/no/kristiania/prg200/database/core/AbstractDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
         </state>
       </provider>
     </entry>
@@ -767,16 +787,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/database-demo-core/src/test/java/no/kristiania/prg200/database/TestDataSource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/database-demo-core/src/main/resources/db/migration/V001__create_table_talks.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -794,25 +804,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/database-demo-core/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="32" selection-start-line="13" selection-start-column="32" selection-end-line="13" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/database-demo-main/pom.xml">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database-demo-main/src/main/java/no/kristiania/prg200/database/main/Conference.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="492">
-          <caret line="42" column="28" selection-start-line="42" selection-start-column="28" selection-end-line="42" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/database-core/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
@@ -838,10 +831,48 @@
     <entry file="file://$PROJECT_DIR$/database-main/src/main/java/no/kristiania/prg200/database/main/Conference.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/database-demo-core/src/main/java/no/kristiania/prg200/database/core/AbstractDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database-demo-core/src/test/java/no/kristiania/prg200/database/TimeslotsDaoTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database-demo-core/src/test/java/no/kristiania/prg200/database/TestDataSource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="30" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
+        <state relative-caret-position="330">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database-demo-core/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="32" selection-start-line="13" selection-start-column="32" selection-end-line="13" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database-demo-main/src/main/java/no/kristiania/prg200/database/main/Conference.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="455">
+          <caret line="41" column="61" selection-start-line="41" selection-start-column="61" selection-end-line="41" selection-end-column="61" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
