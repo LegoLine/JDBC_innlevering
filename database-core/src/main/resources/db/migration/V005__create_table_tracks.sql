@@ -1,5 +1,6 @@
 create table if not exists tracks (
     id serial primary key,
+    tracks_tracks varchar not null,
     talks_id integer not null,
     days_id integer not null,
     timeslots_id integer not null,

@@ -7,8 +7,10 @@ import org.postgresql.ds.PGPoolingDataSource;
 import org.xml.sax.ext.Locator2;
 
 import javax.sql.DataSource;
+import java.io.FileReader;
 import java.io.IOException;
 import java.sql.SQLException;
+import java.util.Properties;
 
 
 public class Conference {
@@ -16,6 +18,9 @@ public class Conference {
     public static void main(String[] args) throws IOException, SQLException {
         DataSource dataSource = createDataSource();
         dataSource.getConnection();
+
+//        createProperties ();
+//        createProperties2 ();
     }
 
 
@@ -32,4 +37,24 @@ public class Conference {
 
         return dataSource;
     }
+
+//    public static Properties createProperties(){
+//        Properties properties = new Properties ();
+//        try ( FileReader reader = new FileReader("innlevering.properties")) {
+//            properties.load(reader);
+//        } catch (IOException e){
+//            System.out.println (e.getMessage ());
+//        }
+//        return properties;
+//    }
+//
+//    public static void createProperties2(){
+//        Properties properties = new Properties ();
+//        try ( FileReader reader = new FileReader("innlevering.properties") ) {
+//            properties.load(reader);
+//        } catch (IOException e){
+//            System.out.println (e.getMessage ());
+//        }
+//    }
+
 }

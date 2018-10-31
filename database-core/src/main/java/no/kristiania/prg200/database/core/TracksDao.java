@@ -17,8 +17,8 @@ public class TracksDao extends AbstractDao implements DataAccessObject<Tracks> {
     public void save(Tracks tracks) throws SQLException {
         try (Connection connection = dataSource.getConnection()) {
             String sql =
-                    "insert into tracks (talks_id, days_id, timeslots_id, rooms_id)"
-                            + "values (?, ?, ?, ?)";
+                    "insert into tracks (tracks_tracks, talks_id, days_id, timeslots_id, rooms_id)"
+                            + "values (?, ?, ?, ?, ?)";
             try (PreparedStatement statement = connection.prepareStatement(sql, PreparedStatement.RETURN_GENERATED_KEYS)) {
                 statement.setObject(1, tracks.getTracks());
                 statement.executeUpdate();
@@ -46,7 +46,7 @@ public class TracksDao extends AbstractDao implements DataAccessObject<Tracks> {
     public Tracks mapToTracks(ResultSet rs) throws SQLException{
         Tracks tracks = new Tracks ();
         tracks.setId ( rs.getLong ( "id" ) );
-        tracks.setTracks ( rs.getString ( "timeslots_time" ) );
+        tracks.setTracks ( rs.getString ( "tracks_tracks" ) );
         return tracks;
     }
 

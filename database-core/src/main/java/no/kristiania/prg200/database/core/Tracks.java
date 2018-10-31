@@ -1,6 +1,7 @@
 package no.kristiania.prg200.database.core;
 
 import java.sql.Time;
+import java.util.ArrayList;
 import java.util.Objects;
 
 /**
@@ -18,6 +19,8 @@ public class Tracks {
     Rooms rooms = new Rooms ();
     Talks talks = new Talks ();
     Timeslots timeslots = new Timeslots ();
+
+
 
     public Tracks() {
         this.tracks = tracks;
@@ -62,7 +65,10 @@ public class Tracks {
 
     @Override
     public String toString () {
-        return getClass().getSimpleName() + "{tracks=" + tracks + ",id=" + id + "}";
+        return getClass().getSimpleName() + "{tracks="     + tracks       + ",id="
+                                          + id             + ", days_id=" + days_id
+                                          + ",rooms_id="   + rooms_id     + ",talks_id=" + talks_id
+                                          + "timeslots_id" + timeslots_id +"}";
     }
 
 }
