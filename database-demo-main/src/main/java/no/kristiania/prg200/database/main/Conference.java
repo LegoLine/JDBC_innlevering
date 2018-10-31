@@ -8,6 +8,7 @@ import no.kristiania.prg200.database.*;
 
 import org.flywaydb.core.Flyway;
 import org.postgresql.ds.PGPoolingDataSource;
+import org.xml.sax.ext.Locator2;
 
 import javax.sql.DataSource;
 import java.io.IOException;
@@ -18,18 +19,6 @@ public class Conference {
 
     public static void main(String[] args) throws IOException, SQLException {
         DataSource dataSource = createDataSource();
-//        DaysDao daysDao = new DaysDao(dataSource);
-//
-//        Days testDays = new Days();
-//        testDays.setDate("29.01.1993");
-//        testDays.setDays("Friday");
-//        testDays.setId(1L);
-//        daysDao.save(testDays);
-//
-//        System.out.println (testDays);
-
-        //createConference();
-
 
     }
 
