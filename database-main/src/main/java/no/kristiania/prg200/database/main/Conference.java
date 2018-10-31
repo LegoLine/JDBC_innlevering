@@ -2,6 +2,8 @@ package no.kristiania.prg200.database.main;
 
 import no.kristiania.prg200.database.*;
 
+import no.kristiania.prg200.database.core.Days;
+import no.kristiania.prg200.database.core.DaysDao;
 import org.flywaydb.core.Flyway;
 import org.postgresql.ds.PGPoolingDataSource;
 import org.xml.sax.ext.Locator2;
@@ -17,8 +19,11 @@ public class Conference {
 
     public static void main(String[] args) throws IOException, SQLException {
         DataSource dataSource = createDataSource();
+        DaysDao daysDao = new DaysDao(dataSource);
         dataSource.getConnection();
 
+        System.out.println(daysDao);
+        System.out.println(daysDao.listAll());
 //        createProperties ();
 //        createProperties2 ();
     }
