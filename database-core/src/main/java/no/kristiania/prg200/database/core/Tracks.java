@@ -15,11 +15,14 @@ public class Tracks extends AbstractDao {
     Long id;
 
     ArrayList<Days> daysArrayList;
+    ArrayList<Rooms> roomsArrayList;
 
 
     public Tracks(DataSource dataSource){
         super(dataSource);
         daysArrayList = new ArrayList<>();
+        roomsArrayList = new ArrayList<>();
+
 
     }
 
@@ -29,6 +32,14 @@ public class Tracks extends AbstractDao {
 
         daysArrayList.add(days);
         System.out.println(daysArrayList);
+        return true;
+    }
+
+    public boolean createStandardRooms(){
+        Rooms rooms = new Rooms (2L, "Svane-salen");
+        roomsArrayList.add(rooms);
+
+        System.out.println(roomsArrayList);
         return true;
     }
 

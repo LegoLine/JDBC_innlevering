@@ -40,7 +40,7 @@ public class RoomsDaoTest {
     }
 
     private Rooms sampleRooms() {
-        Rooms rooms = new Rooms();
+        Rooms rooms = new Rooms(0L, "");
 
         rooms.setRoom(randomRoom());
         return rooms;

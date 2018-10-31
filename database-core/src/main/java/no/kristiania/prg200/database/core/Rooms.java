@@ -6,7 +6,7 @@ public class Rooms {
     Long id;
     private String room;
 
-    public Rooms() {
+    public Rooms(Long id, String room) {
         this.id = id;
         this.room = room;
     }

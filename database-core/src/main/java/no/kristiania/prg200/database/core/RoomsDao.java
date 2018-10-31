@@ -39,12 +39,12 @@ public class RoomsDao extends AbstractDao implements DataAccessObject<Rooms> {
 
     @Override
     public List<Rooms> listAll() throws SQLException {
-        return list("select * from rooms", this::mapToRooms);
+        return list("SELECT * FROM rooms", this::mapToRooms);
     }
 
 
     public Rooms mapToRooms(ResultSet rs) throws SQLException{
-        Rooms rooms = new Rooms();
+        Rooms rooms = new Rooms(1L, "Kongesalen");
         rooms.setId ( rs.getLong ( "id" ) );
         rooms.setRoom ( rs.getString ( "rooms_room" ) );
         return rooms;
