@@ -15,12 +15,9 @@ public class Conference {
 
     public static void main(String[] args) throws IOException, SQLException {
         DataSource dataSource = createDataSource();
-        dataSource.getConnection ();
+        dataSource.getConnection();
     }
 
-    private static void createConference() {
-
-    }
 
     private static DataSource createDataSource() {
         PGPoolingDataSource dataSource = new PGPoolingDataSource();
