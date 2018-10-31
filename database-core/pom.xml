@@ -3,7 +3,7 @@
   <artifactId>database-core</artifactId>
   <parent>
     <groupId>no.kristiania.pgr200</groupId>
-    <artifactId>database-demo</artifactId>
+    <artifactId>database</artifactId>
     <version>0.0.1-SNAPSHOT</version>
   </parent>
   
