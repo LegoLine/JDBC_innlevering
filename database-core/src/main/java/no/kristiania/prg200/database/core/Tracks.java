@@ -48,6 +48,22 @@ public class Tracks {
         this.id = id;
     }
 
+    public void setDays_id(Long days_id) {
+        this.days_id = days_id;
+    }
+
+    public void setRooms_id(Long rooms_id) {
+        this.rooms_id = rooms_id;
+    }
+
+    public void setTalks_id(Long talks_id) {
+        this.talks_id = talks_id;
+    }
+
+    public void setTimeslots_id(Long timeslots_id) {
+        this.timeslots_id = timeslots_id;
+    }
+
     @Override
     public boolean equals(Object o) {
         if (!(o instanceof Tracks)){

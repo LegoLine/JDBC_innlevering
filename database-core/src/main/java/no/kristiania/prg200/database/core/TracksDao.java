@@ -21,6 +21,11 @@ public class TracksDao extends AbstractDao implements DataAccessObject<Tracks> {
                             + "values (?, ?, ?, ?, ?)";
             try (PreparedStatement statement = connection.prepareStatement(sql, PreparedStatement.RETURN_GENERATED_KEYS)) {
                 statement.setObject(1, tracks.getTracks());
+                statement.setObject(2, tracks.talks_id);
+                statement.setObject(3, tracks.days_id);
+                statement.setObject(4, tracks.timeslots_id);
+                statement.setObject(5, tracks.rooms_id);
+
                 statement.executeUpdate();
 
                 try (ResultSet rs = statement.getGeneratedKeys()) {
@@ -47,6 +52,9 @@ public class TracksDao extends AbstractDao implements DataAccessObject<Tracks> {
         Tracks tracks = new Tracks ();
         tracks.setId ( rs.getLong ( "id" ) );
         tracks.setTracks ( rs.getString ( "tracks_tracks" ) );
+        tracks.setTracks ( rs.getString ( "days_id" ) );
+        tracks.setTracks ( rs.getString ( "timeslots_id" ) );
+        tracks.setTracks ( rs.getString ( "rooms_id" ) );
         return tracks;
     }
 
