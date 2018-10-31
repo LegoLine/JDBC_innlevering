@@ -4,6 +4,7 @@ import no.kristiania.prg200.database.*;
 
 import no.kristiania.prg200.database.core.Days;
 import no.kristiania.prg200.database.core.DaysDao;
+import no.kristiania.prg200.database.core.Tracks;
 import org.flywaydb.core.Flyway;
 import org.postgresql.ds.PGPoolingDataSource;
 import org.xml.sax.ext.Locator2;
@@ -22,8 +23,8 @@ public class Conference {
         DaysDao daysDao = new DaysDao(dataSource);
         dataSource.getConnection();
 
-        System.out.println(daysDao);
-        System.out.println(daysDao.listAll());
+        Tracks tracks = new Tracks(dataSource);
+        tracks.createStandardDays();
 //        createProperties ();
 //        createProperties2 ();
     }

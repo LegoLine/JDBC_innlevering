@@ -11,6 +11,7 @@ import java.util.List;
 public class DaysDao extends AbstractDao implements DataAccessObject<Days> {
 
     public DaysDao(DataSource dataSource){
+
         super (dataSource);
     }
 
@@ -44,7 +45,7 @@ public class DaysDao extends AbstractDao implements DataAccessObject<Days> {
 
 
     public Days mapToDays(ResultSet rs) throws SQLException{
-        Days days = new Days();
+        Days days = new Days(2L, "Fredag", "22.10.2018");
         days.setId ( rs.getLong ( "id" ) );
         days.setDays ( rs.getString ( "days_days" ) );
         days.setDate ( rs.getString ( "days_date" ) );

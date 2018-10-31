@@ -9,11 +9,12 @@ public class Days {
     String date;
 
 
-//    public Days(Long id, String days, String date){
-//        this.id = id;
-//        this.days = days;
-//        this.date = date;
-//    }
+    public Days(Long id, String days, String date){
+        this.id = id;
+        this.days = days;
+        this.date = date;
+    }
+
 
 
     public  String getDays() {
