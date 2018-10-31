@@ -11,6 +11,7 @@ public class TestDataSource {
         JdbcDataSource dataSource = new JdbcDataSource ();
         dataSource.setUrl ( "jdbc:h2:mem:test;DB_CLOSE_DELAY=-1" );
         dataSource.setUser ( "postgres" );
+        dataSource.setPassword("root");
 
         Flyway flyway = new Flyway (  );
         flyway.setDataSource ( dataSource );
