@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="48f2ce76-ea71-4449-9495-4696a4a84e47" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/database-demo-main/target/" />
@@ -44,14 +44,32 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Conference.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Conference.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/database-demo-main/src/main/java/no/kristiania/prg200/database/main/Conference.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="455">
-              <caret line="41" column="61" selection-start-line="41" selection-start-column="61" selection-end-line="41" selection-end-column="61" />
+            <state relative-caret-position="335">
+              <caret line="33" column="5" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="V001__create_table_talks.sql" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/database-demo-core/src/main/resources/db/migration/V001__create_table_talks.sql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="21" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DaysDaoTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/database-demo-core/src/test/java/no/kristiania/prg200/database/DaysDaoTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -144,6 +162,7 @@
         <option value="$PROJECT_DIR$/database-core/pom.xml" />
         <option value="$PROJECT_DIR$/database-main/logevents.properties" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/database-demo-core/src/main/resources/db/migration/V005__content_talks" />
       </list>
     </option>
   </component>
@@ -325,7 +344,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Conference">
+  <component name="RunManager" selected="JUnit.DaysDaoTest.shouldCreateDays">
     <configuration name="Conference" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="no.kristiania.prg200.database.main.Conference" />
       <module name="database-main" />
@@ -350,6 +369,29 @@
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="DaysDaoTest.shouldCreateDays" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="database-core" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="no.kristiania.prg200.database.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="no.kristiania.prg200.database" />
+      <option name="MAIN_CLASS_NAME" value="no.kristiania.prg200.database.DaysDaoTest" />
+      <option name="METHOD_NAME" value="shouldCreateDays" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
     </configuration>
     <configuration name="TalksDaoTest.shouldRetrieveTalksById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="database-core" />
@@ -387,29 +429,6 @@
       <option name="PACKAGE_NAME" value="no.kristiania.prg200.database" />
       <option name="MAIN_CLASS_NAME" value="no.kristiania.prg200.database.TimeslotsDaoTest" />
       <option name="METHOD_NAME" value="shouldCreateTimeslots" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="TimeslotsDaoTest.shouldRetrieveTimeslotsById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="database-core" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="no.kristiania.prg200.database.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="no.kristiania.prg200.database" />
-      <option name="MAIN_CLASS_NAME" value="no.kristiania.prg200.database.TimeslotsDaoTest" />
-      <option name="METHOD_NAME" value="shouldRetrieveTimeslotsById" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -459,19 +478,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit.TimeslotsDaoTest.shouldRetrieveTimeslotsById" />
       <item itemvalue="JUnit.TimeslotsDaoTest.shouldCreateTimeslots" />
       <item itemvalue="Application.Conference" />
       <item itemvalue="JUnit.TalksDaoTest.shouldRetrieveTalksById" />
       <item itemvalue="Application.ConferenceArchive" />
+      <item itemvalue="JUnit.DaysDaoTest.shouldCreateDays" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.DaysDaoTest.shouldCreateDays" />
         <item itemvalue="Application.Conference" />
         <item itemvalue="Application.ConferenceArchive" />
         <item itemvalue="JUnit.TalksDaoTest.shouldRetrieveTalksById" />
         <item itemvalue="JUnit.TimeslotsDaoTest.shouldCreateTimeslots" />
-        <item itemvalue="JUnit.TimeslotsDaoTest.shouldRetrieveTimeslotsById" />
       </list>
     </recent_temporary>
   </component>
@@ -491,7 +510,7 @@
       <workItem from="1540383674319" duration="13403000" />
       <workItem from="1540399470343" duration="14000" />
       <workItem from="1540548488242" duration="24666000" />
-      <workItem from="1540893560911" duration="3542000" />
+      <workItem from="1540893560911" duration="4480000" />
     </task>
     <servers />
   </component>
@@ -528,10 +547,11 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45218000" />
+    <option name="totallyTimeSpent" value="46156000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1424" height="869" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="0" />
       <window_info anchor="bottom" id="TODO" order="10" />
@@ -546,7 +566,7 @@
       <window_info anchor="bottom" id="Terminal" order="4" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="0" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" sideWeight="0.49870467" visible="true" weight="0.3227207" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" sideWeight="0.49870467" visible="true" weight="0.2633864" />
       <window_info anchor="right" id="Database" order="4" />
       <window_info id="Structure" order="6" sideWeight="0.5012953" side_tool="true" weight="0.19464543" />
       <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
@@ -575,7 +595,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/database-demo-core/src/test/java/no/kristiania/prg200/database/PersonDaoTest.java" />
     <entry file="file://$PROJECT_DIR$/database-demo-core/src/main/java/no/kristiania/prg200/database/core/Conference.java" />
     <entry file="file://$PROJECT_DIR$/.travis.yml">
       <provider selected="true" editor-type-id="text-editor">
@@ -780,20 +799,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/database-demo-core/src/test/java/no/kristiania/prg200/database/DaysDaoTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database-demo-core/src/main/resources/db/migration/V001__create_table_talks.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="21" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.idea/dataSources/fa9c61c8-19e6-4b27-a35a-1b9a4d0ffb16/storage_v2/_src_/database/postgres.edMnLQ/schema/public.abK9xQ.meta">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -868,11 +873,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/database-demo-main/src/main/java/no/kristiania/prg200/database/main/Conference.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="455">
-          <caret line="41" column="61" selection-start-line="41" selection-start-column="61" selection-end-line="41" selection-end-column="61" />
+        <state relative-caret-position="335">
+          <caret line="33" column="5" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database-demo-core/src/main/resources/db/migration/V005__content_talks">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="29" selection-start-line="1" selection-start-column="29" selection-end-line="1" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database-demo-core/src/main/resources/db/migration/V001__create_table_talks.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="21" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database-demo-core/src/test/java/no/kristiania/prg200/database/DaysDaoTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
         </state>
       </provider>
     </entry>
