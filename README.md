@@ -6,6 +6,12 @@ Av        Line Nathalie Rønning Og   Johan Th. Næss
 FeideID   Ronlin17                   Nesjoh17
 
 
+----------------
+Line Coverage (Link) 
+
+https://ibb.co/hrJn8L
+
+https://ibb.co/fpcfTL
 
 
 
@@ -34,10 +40,4 @@ https://youtu.be/fuXUXFP1mjU
 
 ----------------
 
-Line Coverage (Link) 
 
-https://ibb.co/hrJn8L
-
-https://ibb.co/fpcfTL
-
-----------------
