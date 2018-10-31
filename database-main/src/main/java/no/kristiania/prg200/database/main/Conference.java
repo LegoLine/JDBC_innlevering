@@ -1,9 +1,5 @@
 package no.kristiania.prg200.database.main;
 
-import no.kristiania.prg200.database.core.Days;
-import no.kristiania.prg200.database.core.DaysDao;
-import no.kristiania.prg200.database.core.Talks;
-import no.kristiania.prg200.database.core.TalksDao;
 import no.kristiania.prg200.database.*;
 
 import org.flywaydb.core.Flyway;
@@ -19,7 +15,7 @@ public class Conference {
 
     public static void main(String[] args) throws IOException, SQLException {
         DataSource dataSource = createDataSource();
-
+        dataSource.getConnection ();
     }
 
     private static void createConference() {
