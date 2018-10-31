@@ -7,10 +7,6 @@ import java.sql.*;
 import java.util.List;
 
 
-
-/**
- * Tilsvarer courseDao
- */
 public class RoomsDao extends AbstractDao implements DataAccessObject<Rooms> {
 
     public RoomsDao(DataSource dataSource){

@@ -7,10 +7,6 @@ import java.sql.*;
 import java.util.List;
 
 
-
-/**
- * Tilsvarer courseDao
- */
 public class TimeslotsDao extends AbstractDao implements DataAccessObject<Timeslots> {
 
     public TimeslotsDao(DataSource dataSource){
