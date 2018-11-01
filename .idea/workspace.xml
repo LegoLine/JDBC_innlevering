@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="48f2ce76-ea71-4449-9495-4696a4a84e47" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-    </list>
+    <list default="true" id="48f2ce76-ea71-4449-9495-4696a4a84e47" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/database-demo-main/target/" />
     <ignored path="$PROJECT_DIR$/database-demo-core/target/" />
@@ -554,7 +552,7 @@
       <workItem from="1540991415590" duration="8043000" />
       <workItem from="1541005537324" duration="83000" />
       <workItem from="1541005688186" duration="8048000" />
-      <workItem from="1541034378118" duration="2062000" />
+      <workItem from="1541034378118" duration="2805000" />
     </task>
     <servers />
   </component>
@@ -591,11 +589,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="68837000" />
+    <option name="totallyTimeSpent" value="69580000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1424" height="869" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="0" />
       <window_info anchor="bottom" id="TODO" order="10" />
@@ -606,7 +603,7 @@
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" weight="0.32901555" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="2" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="11" visible="true" weight="0.09974093" />
+      <window_info anchor="bottom" id="Run" order="11" weight="0.40025908" />
       <window_info anchor="bottom" id="Version Control" order="3" weight="0.32901555" />
       <window_info anchor="bottom" id="Terminal" order="4" />
       <window_info id="Capture Tool" order="2" />
