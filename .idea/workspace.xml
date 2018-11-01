@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="48f2ce76-ea71-4449-9495-4696a4a84e47" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database-core/src/main/java/no/kristiania/prg200/database/core/DaysDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/database-core/src/main/java/no/kristiania/prg200/database/core/DaysDao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/database-core/src/main/java/no/kristiania/prg200/database/core/RoomsDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/database-core/src/main/java/no/kristiania/prg200/database/core/RoomsDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database-core/target/classes/no/kristiania/prg200/database/core/DaysDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/database-core/target/classes/no/kristiania/prg200/database/core/DaysDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database-core/target/classes/no/kristiania/prg200/database/core/RoomsDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/database-core/target/classes/no/kristiania/prg200/database/core/RoomsDao.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/database-main/src/main/java/no/kristiania/prg200/database/main/Conference.java" beforeDir="false" afterPath="$PROJECT_DIR$/database-main/src/main/java/no/kristiania/prg200/database/main/Conference.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
@@ -50,11 +46,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Conference.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Conference.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/database-main/src/main/java/no/kristiania/prg200/database/main/Conference.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="314">
-              <caret line="44" column="28" selection-start-line="44" selection-start-column="28" selection-end-line="44" selection-end-column="28" />
+            <state relative-caret-position="501">
+              <caret line="44" column="8" selection-start-line="44" selection-start-column="8" selection-end-line="44" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -98,11 +94,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RoomsDao.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="RoomsDao.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/database-core/src/main/java/no/kristiania/prg200/database/core/RoomsDao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="178">
-              <caret line="41" column="52" selection-start-line="41" selection-start-column="52" selection-end-line="41" selection-end-column="52" />
+            <state relative-caret-position="253">
+              <caret line="46" column="37" selection-start-line="46" selection-start-column="37" selection-end-line="46" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -216,8 +212,8 @@
         <option value="$PROJECT_DIR$/database-core/src/main/java/no/kristiania/prg200/database/core/Rooms.java" />
         <option value="$PROJECT_DIR$/database-core/src/main/java/no/kristiania/prg200/database/core/Tracks.java" />
         <option value="$PROJECT_DIR$/database-core/src/test/java/no/kristiania/prg200/database/RoomsDaoTest.java" />
-        <option value="$PROJECT_DIR$/database-main/src/main/java/no/kristiania/prg200/database/main/Conference.java" />
         <option value="$PROJECT_DIR$/database-core/src/main/java/no/kristiania/prg200/database/core/RoomsDao.java" />
+        <option value="$PROJECT_DIR$/database-main/src/main/java/no/kristiania/prg200/database/main/Conference.java" />
       </list>
     </option>
   </component>
@@ -368,6 +364,12 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="database-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JDBC_innlevering" type="462c0819:PsiDirectoryNode" />
+              <item name="database-main" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="database-demo" type="b2602c69:ProjectViewProjectNode" />
@@ -594,7 +596,7 @@
       <workItem from="1540991415590" duration="8043000" />
       <workItem from="1541005537324" duration="83000" />
       <workItem from="1541005688186" duration="8048000" />
-      <workItem from="1541034378118" duration="514000" />
+      <workItem from="1541034378118" duration="785000" />
     </task>
     <servers />
   </component>
@@ -631,7 +633,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="67289000" />
+    <option name="totallyTimeSpent" value="67560000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1424" height="869" extended-state="0" />
@@ -938,20 +940,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/database-main/src/main/java/no/kristiania/prg200/database/main/Conference.java">
+    <entry file="file://$PROJECT_DIR$/database-core/src/main/java/no/kristiania/prg200/database/core/RoomsDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="314">
-          <caret line="44" column="28" selection-start-line="44" selection-start-column="28" selection-end-line="44" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="253">
+          <caret line="46" column="37" selection-start-line="46" selection-start-column="37" selection-end-line="46" selection-end-column="37" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/database-core/src/main/java/no/kristiania/prg200/database/core/RoomsDao.java">
+    <entry file="file://$PROJECT_DIR$/database-main/src/main/java/no/kristiania/prg200/database/main/Conference.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="41" column="52" selection-start-line="41" selection-start-column="52" selection-end-line="41" selection-end-column="52" />
+        <state relative-caret-position="501">
+          <caret line="44" column="8" selection-start-line="44" selection-start-column="8" selection-end-line="44" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

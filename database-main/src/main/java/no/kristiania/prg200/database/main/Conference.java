@@ -42,7 +42,6 @@ public class Conference {
 
         roomsDao.listAll();
 
-        roomsDao.mapToRooms();
 
 //        createProperties ();
 //        createProperties2 ();
