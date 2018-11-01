@@ -19,7 +19,12 @@ https://ibb.co/fpcfTL
 
 Selv evaluering av hvordan man jobbet sammen
 
-Vi har hovedsakelig jobbet på skolen, vi fant fort ut at det var best å bruke en datamaskin. Så det ble egentlig bare par programmering hele veien. Der vi brukte en datamaskin til å slå opp for å løse problemer vi hadde underveis, og den andre maskin da til å skrive kode på. Dette fungerte veldig bra, da det er lettere med to personer. Det var kanskje litt uvant i starten da vi ikke er vandt med at noen sitter oppe på oss når vi sitter å programmerer, men det gikk fort over. Vi følte at det ble mye bedre på denne måten vi gjorde det, siden det var lettere å oppdage feil i koden. Så vi lettere kunne få fikset det med engang uten å gå tilbake. Var også mye mere effektiv til tider siden vi hadde jo doblet «kunnskap» så hvis den ene sto fast om hva vi skulle gjøre videre så kunne den andre forslå, eller fortelle hva man skulle skrive, eller hvordan vi skulle låse problemet vi hadde kommet oss inn i. Har jobbet lite hjemme, har brukt Slack til å kommunisere også sende filer/kode. Vi har jo også flere prosjekter i andre fag samtidig, så da har vi prøvd å møtes hver eneste dag som vi kunne, der vi ikke var opptatt med de andre gruppene i de fagene vi hadde. 
+Vi har hovedsaklig jobbet på skolen, vi fant fort ut at det var best å bruke én datamaskin. Så det ble egentlig bare par programmering hele veien. Der vi brukte én datamaskin til å slå opp for å løse problemer vi hadde underveis, og den andre maskinen til å skrive koden på. 
+Dette fungerte veldig bra, da det er lettere med to personer. Det var litt uvant i starten da vi ikke er vant med at noen sitter og ser på når vi sitter å programmerer, men det gikk fort over. 
+Vi opplevde at det ble mye bedre på denne måten vi gjorde det, siden det var lettere å oppdage feil i koden når én kodet og én så på. Slik kunne vi lettere få fikset småfeil(og store feil..) med en gang uten å gå tilbake senere uten å ha noen anelse om hva som var galt. 
+Det var også mye mer effektivt til tider i og med at vi hadde "dobbelt opp" med kunnskap, så hvis den ene sto fast om hva vi skulle gjøre videre kunne den andre foreslå hva den andre skulle skrive. Eller hvordan vi skulle løse problemet vi hadde kommet oss inn i. 
+Vi har jobbet litt hjemme, men for det meste har vi trivdes med å sitte sammen på skolen og kode. Vi har brukt Slack til å kommunisere oss i mellom og for å sende filer/kode til hverandre. 
+Vi har flere prosjekter i andre fag samtidig, så da har vi prøvd å møtes de dagene vi har kunnet, der vi ikke var opptatt med de andre gruppene i de fagene vi hadde. 
 
 ------------
 
@@ -32,7 +37,10 @@ https://ibb.co/mjjGJL
 ----------------
 Video
 
-I denne videoen så parprogrammere vi. Det ble bare en test, siden vi brukte over en time til å få den til å bli grønn. Videoen skulle jo egentlig bare vart i 3-8 minutter, Siden videoen ble jo på over en time, så måtte vi ta i bruk av noen kreative måter. Så da ble videoen klippet, og farten på filmen ble også øket, men ikke for mye så man ikke fikk med seg hva som skjedde. Vil oppforde til å stoppe videoen og se på problemet våres. Så du kan enkelt følge med på hvordan vi løste problemet.  
+I denne videoen parprogrammerer vi. Det ble bare tid til én test, siden vi brukte over en time på å få den til å bli grønn. :hankey: 
+Videoen skulle jo egentlig bare vart i 3-8 minutter, men siden videoen ble på over en time, måtte vi ta i bruk av noen kreative løsninger for å korte ned på filmen. 
+Så da ble videoen klippet, og hastigheten på filmen ble også økt, men ikke for mye så man ikke fikk med seg hva som skjedde. :construction_worker: 
+Vil oppfordre til å stoppe videoen og se på problemene vi støter på underveis. Så du kan enkelt følge med på hvordan vi løste problemene og fikk koden til å kjøre grønt til slutt. :bug:  
 
 Link
 
