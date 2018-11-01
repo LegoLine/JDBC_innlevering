@@ -10,6 +10,7 @@ import org.xml.sax.ext.Locator2;
 import javax.sql.DataSource;
 import java.io.FileReader;
 import java.io.IOException;
+import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.Properties;
@@ -22,16 +23,25 @@ public class Conference {
         DaysDao daysDao = new DaysDao(dataSource);
         dataSource.getConnection();
 
+        /*Forsøker å lage Days-objekter og skrive dem ut*/
         Tracks tracks = new Tracks(dataSource);
         tracks.createStandardDays();
         tracks.createStandardRooms();
 
-        ArrayList<Tracks> tracksArrayList = new ArrayList<>();
+//        ArrayList<Tracks> tracksArrayList = new ArrayList<>();
 
-        Rooms rooms = new Rooms(2L, "trott");
+        /*Forsøker å lagre nye rom i selve databasen*/
+        Rooms rooms = new Rooms(2L, "Rosérommet");
+        Rooms rooms1 = new Rooms(3L, "Testrom");
+        Rooms rooms2 = new Rooms(4L, "Himmelsalen");
 
         RoomsDao roomsDao = new RoomsDao(dataSource);
         roomsDao.save(rooms);
+        roomsDao.save(rooms1);
+        roomsDao.save(rooms2);
+
+        //roomsDao.mapToRooms();
+
 //        createProperties ();
 //        createProperties2 ();
     }
