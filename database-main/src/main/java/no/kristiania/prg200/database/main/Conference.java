@@ -30,7 +30,7 @@ public class Conference {
 
 //        ArrayList<Tracks> tracksArrayList = new ArrayList<>();
 
-        /*Forsøker å lagre nye rom i selve databasen*/
+        /*Tester ut metodene fra RoomsDao mot selve databasen*/
         Rooms rooms = new Rooms(2L, "Rosérommet");
         Rooms rooms1 = new Rooms(3L, "Testrom");
         Rooms rooms2 = new Rooms(4L, "Himmelsalen");
@@ -39,6 +39,8 @@ public class Conference {
         roomsDao.save(rooms);
         roomsDao.save(rooms1);
         roomsDao.save(rooms2);
+
+        roomsDao.listAll();
 
         //roomsDao.mapToRooms();
 
