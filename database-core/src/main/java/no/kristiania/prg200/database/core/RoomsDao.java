@@ -47,7 +47,7 @@ public class RoomsDao extends AbstractDao implements DataAccessObject<Rooms> {
         Rooms rooms = new Rooms(1L, "Kongesalen");
         rooms.setId ( rs.getLong ( "id" ) );
         rooms.setRoom ( rs.getString ( "rooms_room" ) );
-        System.out.println (rooms);
+        System.out.println(rooms);
         return rooms;
     }
 

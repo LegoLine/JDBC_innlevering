@@ -42,7 +42,7 @@ public class Conference {
 
         roomsDao.listAll();
 
-        //roomsDao.mapToRooms();
+        roomsDao.mapToRooms();
 
 //        createProperties ();
 //        createProperties2 ();
