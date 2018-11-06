@@ -2,6 +2,7 @@ package no.kristiania.prg200.database.core;
 
 import java.util.Objects;
 
+
 public class Rooms {
     Long id;
     private String room;

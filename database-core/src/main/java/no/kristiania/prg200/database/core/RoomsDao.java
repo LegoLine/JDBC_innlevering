@@ -1,7 +1,5 @@
 package no.kristiania.prg200.database.core;
 
-
-
 import javax.sql.DataSource;
 import java.sql.*;
 import java.util.List;

@@ -8,7 +8,8 @@ import static org.assertj.core.api.Assertions.assertThat;
 import java.io.IOException;
 import java.sql.SQLException;
 import java.util.Random;
-import java.util.Scanner;
+
+
 
 public class DaysDaoTest {
 
